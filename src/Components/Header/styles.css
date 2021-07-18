@@ -1,0 +1,29 @@
+.header {
+  background-color: rgba(53, 53, 53, 0.657);
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.header > div {
+  margin-right: 1.5rem;
+  width: 35%;
+}
+
+.header div nav {  
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.header nav a {
+  color: rgb(255, 255, 255);
+}
+
+.header nav a:hover {
+  opacity: 0.8;
+}

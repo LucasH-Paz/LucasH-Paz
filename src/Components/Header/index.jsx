@@ -3,8 +3,16 @@ import './styles.css';
 
 function Header() {
   return(
-    <div>
-      Header
+    <div className="header">
+      <div>
+        <nav>
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#works">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contac</a>
+        </nav>
+      </div>
     </div>
   )
 }
