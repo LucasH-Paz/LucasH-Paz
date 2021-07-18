@@ -8,7 +8,7 @@ function About() {
     <div id="about">
       <div className="content">
         <h1 className="title is-1">Hi There!</h1>
-        <h2 className="subtitle is-3">A little Bit About Me...</h2>
+        <h2 className="subtitle is-3">A little bit about me...</h2>
         <p>
           I'm a web developement student, completely in love with doing technology. I'm studing
           to become a full-stack web developer; doing resposives, scalable, legible and full of 

@@ -1,0 +1,14 @@
+.division {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  color: rgb(173, 172, 172);
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.division > div {
+  height: 1px;
+  width: 40%;
+  background-color: rgb(185, 181, 181);
+}
