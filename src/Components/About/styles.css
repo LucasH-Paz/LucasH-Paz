@@ -1,0 +1,38 @@
+#about {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 80%;
+  margin: 5vh 0;
+  padding: 2rem;
+}
+
+#about > img {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#about > div {
+  display: flex;
+  flex-flow: column;
+  padding: 1.5rem;
+  margin-left: 1rem;
+  justify-content: space-between;
+}
+
+#about > div > p {
+  text-align: justify;
+}
+
+#about > div > button {
+  width: 25%;
+}
+
+#about h1 {
+  color: rgb(60, 110, 113);
+}
+
+#about h2 {
+  color: rgb(60, 110, 113);
+}
