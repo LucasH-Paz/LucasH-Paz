@@ -1,0 +1,21 @@
+#hero {
+  background-image: linear-gradient(#284b63, #3c6e71);
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  top: 0;
+}
+
+#hero > button {
+  position: absolute;
+  bottom: 5rem;
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hero > div {
+  position: absolute;
+  bottom: 40vh;
+  left: 5vw;
+}
