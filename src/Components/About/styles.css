@@ -7,9 +7,10 @@
 }
 
 #about > img {
-  width: 22rem;
-  height: 22rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
+  margin-left: 1rem;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -26,7 +27,8 @@
 }
 
 #about > div > button {
-  width: 25%;
+  margin-top: 3vh;
+  width: 20%;
 }
 
 #about h1 {

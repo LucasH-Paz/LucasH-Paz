@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import user from '../../images/userimg.jpg';
+import user from '../../images/selfie_Lucas.jpg';
 
 function About() {
   return(

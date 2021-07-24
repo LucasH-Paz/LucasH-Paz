@@ -5,10 +5,14 @@
 
 .App {
   align-items: center;
-  background-color: #d9d9d9;
+  background-color: rgb(243, 240, 240);
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   width: 100vw;
+}
+
+button {
+  font-weight: 700;
 }
