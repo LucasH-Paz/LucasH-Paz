@@ -13,14 +13,19 @@ function Carousel({ pictures, current, onClick }) {
       />
       <div className="slides">
         { pictures.map(({ image }, index) => (
-          <input type="radio" name="radio-btn" id={`radio${index}`} />
+          <input type="radio" name="radio-btn" id={`radio${index}`} key={ `label-${ index }`} />
         ))}
         <div className="slide-images">
             <img src={ pictures[current].image } alt="project" />
         </div>
         <div className="navigation-manual">
           { pictures.map(({ image }, index) => (
-            <label for={`radio${index}`} className="manual-btn" />
+            <label
+              for={`radio${index}`}
+              className="manual-btn"
+              key={ `label-${ index }`}
+              style={{ background: index === current ? '#3c6e71' : 'none' } }
+            />
           ))}
         </div>
       </div>
