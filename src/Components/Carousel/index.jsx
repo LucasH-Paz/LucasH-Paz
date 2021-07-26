@@ -1,16 +1,22 @@
 import React from 'react';
 import './styles.css';
 
-function Carousel({ pictures, current }) {
+function Carousel({ pictures, current, onClick }) {
   return (
     <div id="carousel-parent">
-      <i class="fas fa-chevron-left" />
+      <i
+        class="fas fa-chevron-left"
+        onClick={ () => {
+          if (current > 0 ) return onClick( current - 1);
+          return;
+        }}
+      />
       <div className="slides">
         { pictures.map(({ image }, index) => (
           <input type="radio" name="radio-btn" id={`radio${index}`} />
         ))}
         <div className="slide-images">
-            <img src={ current } alt="project" />
+            <img src={ pictures[current].image } alt="project" />
         </div>
         <div className="navigation-manual">
           { pictures.map(({ image }, index) => (
@@ -18,7 +24,13 @@ function Carousel({ pictures, current }) {
           ))}
         </div>
       </div>
-      <i class="fas fa-chevron-right" />
+      <i
+        class="fas fa-chevron-right"
+        onClick={ () => {
+          if ( current < pictures.length - 1 ) return onClick( current + 1);
+          return;
+        }}
+      />
     </div>
   );
 }
