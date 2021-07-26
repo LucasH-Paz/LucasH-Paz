@@ -25,19 +25,19 @@ function Works() {
       <div className="filters">
         <button
           onClick={() => setFilter('all')}
-          className="button is-info"
+          className="button is-primary"
         >
           All
         </button>
         <button
           onClick={() => setFilter('front-end')}
-          className="button is-info"
+          className="button is-primary"
         >
           Front-End
         </button>
         <button
           onClick={() => setFilter('back-end')}
-          className="button is-info"
+          className="button is-primary"
         >
           Back-End
         </button>

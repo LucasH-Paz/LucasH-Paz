@@ -21,13 +21,14 @@
 
 .galery {
   display: flex;
-  max-width: 90%;
+  width: 90%;
   text-align: justify;
   margin: 1rem;
 }
 
 .text {
   padding: 1rem;
+  width: 48%;
 }
 
 .galery .text h1 {
@@ -35,7 +36,7 @@
 }
 
 .galery .text h2 {
-  color: #3c6e71;
+  color: white;
 }
 
 .galery-images {
@@ -43,10 +44,11 @@
   flex-flow: row wrap;
   justify-content: flex-end;
   align-items: center;
+  width: 50%;
 }
 
 .galery-images img {
-  width: 48%;
+  width: 45%;
   margin: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }

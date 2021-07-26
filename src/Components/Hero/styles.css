@@ -1,23 +1,27 @@
 #hero {
-  background-image: linear-gradient(#284b63, #3c6e71);
+  background-image: url('../../images/background.jpeg');
+  background-attachment: fixed;
   height: 100vh;
   width: 100vw;
-  z-index: 0;
-  top: 0;
 }
 
-#hero > button {
-  position: absolute;
-  bottom: 5rem;
-  right: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container-header {
+  background-image: linear-gradient(#284b63d5, #3c6e71d7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#hero > div {
-  position: absolute;
-  bottom: 40vh;
-  left: 5vw;
+.container-header > button {
+  margin-bottom: 5rem;
+}
+
+.container-header > div {
+  margin-top: 50vh;
+  align-self: center;
 }
 
 #hero h1 {
@@ -25,5 +29,6 @@
 }
 
 #hero h2 {
-  color: rgb(133, 133, 133);
+  color: rgb(163, 163, 163);
+  font-weight: 800;
 }
