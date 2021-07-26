@@ -14,11 +14,11 @@
   transform: translate(-50%, -50%);
 }
 
-/* #hero > div {
+#hero > div {
   position: absolute;
   bottom: 40vh;
   left: 5vw;
-} */
+}
 
 #hero h1 {
   color: rgb(184, 182, 182);

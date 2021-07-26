@@ -19,7 +19,7 @@ function Footer() {
           <i class="fab fa-instagram"></i>
         </a>
       </div>
-      <span className="copyright">Copyright© 2021 Lucas Paz. Todos os direitos reservados</span>
+      <span className="copyright">Copyright© 2021 Lucas Paz. All rights reserved</span>
     </div>
   )
 }
