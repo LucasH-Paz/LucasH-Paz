@@ -11,13 +11,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   width: 13%;
   padding: 1rem;
   margin: 1rem;
-  max-height: 16rem;
+  margin-top: 1.5rem;
+  max-height: 10rem;
   justify-content: space-between;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition: 0.8s ease;
+  text-align: center;
 }
 
 #skills > div:hover {
@@ -26,6 +29,6 @@
 
 #skills > div > img {
   max-height: 80%;
-  height: auto;
+  max-height: 50%;
   margin-top: 0.8rem;
 }

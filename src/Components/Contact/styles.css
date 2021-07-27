@@ -1,0 +1,15 @@
+#contact {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  width: 65%;
+  padding: 3rem;
+}
+
+.field {
+  width: 60%;
+}
+
+#contact button {
+  margin: 1rem 0;
+}

@@ -62,6 +62,11 @@ function Skills() {
 
   return(
     <div id='skills'>
+      <p>
+        In this section you can check some of the languages and tools I've been working with.
+        I'm always learning new things, so, even if you do not see what your looking on this list,
+        let's get in touch! It's always a pleasure for me to learn new abilities!
+      </p>
       {
         logos.map(({ image, name }) => (
           <div className="skill-card">
