@@ -56,7 +56,7 @@ function Skills() {
     },
     {
       image: hooks,
-      name: 'React Hooks'
+      name: 'Hooks'
     }
   ];
 

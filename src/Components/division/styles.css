@@ -10,5 +10,13 @@
 .division > div {
   height: 1px;
   width: 40%;
-  background-color: rgb(185, 181, 181);
+  background-color: rgb(221, 221, 221);
+}
+
+#works > .division > div {
+  background-color: #494848;
+}
+
+#works > .division {
+  color: #6d6d6d;
 }

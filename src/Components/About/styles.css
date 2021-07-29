@@ -38,3 +38,45 @@
 #about h2 {
   color: rgb(60, 110, 113);
 }
+
+@media screen and (max-width: 769px) {
+  #about {
+    flex-direction: column-reverse;
+    padding: 0.5rem;
+    margin: 3vh 0;
+    max-width: 100%;
+    height: fit-content;
+  }
+
+  #about > img {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+  }
+
+  #about > div {
+    max-height: 80vh;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  #about > div > button {
+    margin: auto;
+    width: fit-content;
+  }
+
+  #about h1 {
+    font-size: 1.2rem;
+  }
+  
+  #about h2 {
+    font-size: 1rem;
+  }
+
+  #about > div > button {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+}

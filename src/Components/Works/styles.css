@@ -68,3 +68,51 @@
 .links a:hover {
   color: #284b63;
 }
+
+@media screen and (max-width: 769px) {
+  #works .filters {
+    width: 100%;
+  }
+
+  #works .filters button {
+    font-size: 0.8rem
+  }
+
+  .galery {
+    width: 100%;
+    margin: 0.2rem;
+    flex-flow: column nowrap;
+  }
+
+  .text {
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .galery .text h1 {
+    font-size: 1.2rem;
+  }
+  
+  .galery .text h2 {
+    font-size: 1rem;
+  }
+
+  .links {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .links a {
+    margin: 1rem;
+  }
+
+  .galery-images {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .galery-images img {
+    width: 90%;
+  }
+}

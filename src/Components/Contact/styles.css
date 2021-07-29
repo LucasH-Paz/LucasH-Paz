@@ -13,3 +13,15 @@
 #contact button {
   margin: 1rem 0;
 }
+
+@media screen and (max-width: 769px) {
+  #contact {
+    width: 90%;
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  .field {
+    width: 100%;
+  }
+}

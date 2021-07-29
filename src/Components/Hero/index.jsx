@@ -11,9 +11,11 @@ function Hero() {
             I'm so glad in having you here, go ahead and check out some of my works.
           </h2>
         </div>
-        <button type="button" className="button is-large is-primary is-outlined">
-          Explore the Projects
-        </button>
+        <a href="#works">
+          <button type="button" className="button is-large is-primary is-outlined">
+            Explore Projects
+          </button>
+        </a>
       </div>
     </header>
   )
