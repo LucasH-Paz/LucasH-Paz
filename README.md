@@ -6,7 +6,7 @@ Olá, me chamo Lucas Paz, sou de Minas Gerais, Brasil e estou me capacitando par
 
 ## Meus Interesses Pessoais:
 
-- 👨🏽‍💻 Estou estudanto atualmente **React JS**;
+- 👨🏽‍💻 Estou estudanto atualmente desenvolvimento web;
 
 - 👨‍🔧 Estudei engenharia mecânica na Universidade Federal de São João del Rei - UFSJ;
 
