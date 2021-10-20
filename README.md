@@ -33,4 +33,4 @@ Olá, me chamo Lucas Paz, sou de Minas Gerais, Brasil e estou me capacitando par
 
   
 
-[![Lucas Paz's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasH-Paz)](https://github.com/anuraghazra/github-readme-stats)
+[![Lucas Paz's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasH-Paz&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
